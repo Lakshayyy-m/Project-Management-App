@@ -1,0 +1,19 @@
+.wrapper{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.listItem{
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    scale: 1.1;
+}
+
+.listItemSelected{
+    background-color: rgb(40, 35, 35);
+    transition: all 0.2s ease-in-out;
+    padding-left: 7px;
+    border-left: 2px solid white;
+}

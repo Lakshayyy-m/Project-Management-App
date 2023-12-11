@@ -1,0 +1,100 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px;
+  gap: 20px;
+  padding-top: 150px;
+}
+
+.first {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.first h1 {
+  font-size: 2rem;
+  color: #413434;
+}
+
+.first button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  color: #110d0d;
+  font-size: 1rem;
+  padding: 13px;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.541);
+}
+
+.division {
+  color: rgba(0, 0, 0, 0.541);
+  background-color: rgba(0, 0, 0, 0.541);
+  width: 80%;
+}
+
+.taskAdder h2 {
+  color: #413434;
+}
+
+.taskAdder input {
+  border: none;
+  border-radius: 0;
+  background-color: #110d0d2c;
+  padding: 7px;
+  font-size: 1.04rem;
+  transition: all 0.2s ease-in-out;
+  margin-right: 20px;
+}
+
+.taskAdder input:focus-within {
+  outline: none;
+  border-bottom: 2px solid #413434;
+}
+
+.taskAdder button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  color: #110d0d;
+  font-size: 1rem;
+  padding: 13px;
+}
+
+.taskItem {
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.14);
+  
+}
+
+.tasks {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.taskClear {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+  color: #110d0d;
+  font-size: 1rem;
+  padding: 13px;
+}
+
+.taskTitle{
+  font-weight: 700;
+}

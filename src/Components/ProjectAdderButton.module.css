@@ -1,0 +1,29 @@
+.addButton {
+  background-color: #332e2b;
+  color: #8a8483;
+  padding: auto;
+  height: 42px;
+  width: 120px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.addButton:hover {
+  scale: 1.04;
+}
+
+.createProjectButton {
+  background-color: #110d0d;
+  border-radius: 6px;
+  border: none;
+  color: #8a8483;
+  cursor: pointer;
+  height: 39px;
+  width: 140px;
+}
+
+.createProjectButton:hover {
+  scale: 1.04;
+}
